@@ -1,0 +1,60 @@
+#secao-servicos{
+    background-color: #3c365e;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicos{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#servicos li h2{
+    text-align: center;
+}
+
+#servicos li div{
+    height: 450px;
+    width: 300px;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+}
+
+#servicos li div img{
+    width: 300px;
+    border-radius: 5px;
+}
+
+#servicos li div p{
+    padding: 0 3px;
+    margin: 10px 0;
+    justify-self: center;
+    align-self: center;
+}
+
+#servicos li div button{
+    height: fit-content;
+    font-weight: bold;
+    padding: 10px;
+    color: #3c365e   ;
+    background-color: #f0e3e3;
+    border: none;
+    border-radius: 20px;
+    align-self: center;
+}
+
+#servicos li div button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: 3px 1px 0 #0a0914;
+}

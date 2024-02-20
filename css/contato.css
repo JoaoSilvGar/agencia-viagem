@@ -1,0 +1,64 @@
+#secao-contato{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/bg-contato.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#formulario{
+    width: 60%;
+    position: relative;
+    height: 100%;
+    clip-path: ellipse(50% 100% at 40%);
+    background-color: #3c365e;
+    display: flex;
+    align-items: center;
+}
+
+#formulario fieldset{
+    height: 500px;
+    width: fit-content;
+    display: block;
+    border: none;
+    color: #f0e3e3;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.inputs{
+    height: 25px;
+    width: 80%;
+    left: 40px;
+    top: 20%;
+    margin-top: 7px;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    background-color: #f0e3e3;
+}
+
+#msg{
+    resize: none !important;
+    overflow: auto !important;
+    height: 250px;
+}
+
+#btn-enviar-msg{
+    width: fit-content;
+    height: fit-content;
+    background-color:#f0e3e3;
+    color: #3c365e;
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+
+#btn-enviar-msg:hover{
+    background-color: #180c5e;
+    color: #f0e3e3;
+    cursor: pointer;
+    transition: 0.2s;
+}
